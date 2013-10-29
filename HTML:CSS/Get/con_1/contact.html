@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title>contact</title>
+ 		<meta name="author" content="veeravit virort">
+ 		<link  media="screen,projection" rel = "stylesheet" type = "text/css" href = "css/screen.css">
+ 		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="global">
+			<div id="header">
+				<img src="img/423.jpg" alt="my image"/>
+			</div>
+			<div id="navigation">
+					<ul>
+					<li><a href="index.html"><img src="img/home.jpg" alt="my home"/></a></li>
+					<li><a href="blog.html"><img src="img/blog.jpg" alt="my blog"/></a>
+						<ul class="submenu">
+							<li><a href="blog/blog1.html"><img src="img/blog1.jpg" alt="my blog1"/></a></li>
+							<li><a href="blog/blog2.html"><img src="img/blog2.jpg" alt="my blog2"/></a></li>
+						</ul>
+					</li>
+					<li><a href="profile.html"><img src="img/profile.jpg" alt="my profile"/></a></li>
+					<li><a href="contact.html"><img src="img/contact.jpg" alt="my contect"/></a></li>		
+				</ul>
+			</div>
+			<div id="content">
+				 <h1>contact me</h1>
+				<form name="contact_form" method="get" action="result.html" enctype="multipart/form-data">
+					<p>  
+						<label for="name"> Your name:</label><input type="text" name="name" id="name" />
+						<label for="email"> Your email:</label><input type="text" name="email" id="email" />
+						<label for="age"> age:</label>
+						<select name="age" id="age">
+							<option value="7-15" selected="selected">7-15</option>
+							<option value="16-25">16-25</option>
+							<option value="26-35">26-35</option>
+							<option value="36-45">36-45</option>
+							<option value="what is this">46-55</option>
+						</select>
+						<br>
+						<h3>Gender:</h3>
+						<span class="option">
+							<label for="male">
+								<input id="male" type="radio" value="male" name="gender:list" />
+								<span class="label">male</span>
+							</label>
+						</span>
+						<span class="option">
+							<label for="female">
+								<input id="female" type="radio" value="Female" name="gender:list"/>
+								<span class="label">Female</span><br>
+							</label>
+						</span>
+						<label for="email-text">Email text:</label><br>
+						<textarea name="email-text" id="email-text" rows="8" cols="60"></textarea><br>
+						<label for="newsletter">do you want our newsletter ?</label>
+						<input type="checkbox" checked="checked" name="newsletter" id="newsletter" value="newletter"/>
+						<input type="submit" name="sendme" value="sendme"/><br>
+					<p>
+				</form>  
+ 			</div>
+			<div id="footer">
+				<div class="t-text1">
+				   You look solemn. Actually, you are so sensitive and touchy. However, you are helpful, reasonable, careful and far-sighted. You always do planning for yourself and people around you. You are contented and like to help people who are in trouble. - See more at: http://variety.siam55.com/data/6/0444-1.html#sthash.qexLmRql.dpuf
+				</div>
+				<div class="t-taxt2">
+					You look solemn. Actually, you are so sensitive and touchy. However, you are helpful, reasonable, careful and far-sighted. You always do planning for yourself and people around you. You are contented and like to help people who are in trouble. - See more at: http://variety.siam55.com/data/6/0444-1.html#sthash.qexLmRql.dpuf
+				</div>
+			</div>	
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Tichakorn Sangthong">
+		<meta name="description" content="It is test website">
+		<link href="css/screen.css" media="screen,projection" rel="stylesheet" type="text/css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<div id="global" class="block">
+			
+			<div id="header" class="block">	
+				<a href="startpage.html"><img src="img/logo.gif"/></a>
+			</div>
+
+			<div id="navigation" class="block opacity">
+				<ul>
+					<li><a href="startpage.html"><img src="img/home2.gif" alt="My home"/></a></li>
+					<li><a href="blog.html"><img src="img/blogg.gif" alt="My blog"/></a>
+						<ul class="submenu">
+							<li><a href="blog/blog1.html"><img src="img/blogg1.gif" alt="My blog1"/></a></li>
+							<li><a href="blog/blog2.html"><img src="img/blogg2.gif" alt="My blog2"/></a></li>
+						</ul>
+					</li>
+					<li><a href="profile.html"><img src="img/profile2.gif" alt="My profile"/></a></li>
+					<li><a href="contact.html"><img src="img/contact4.gif" alt="My contact"/></a></li>
+				</ul>
+			</div>
+
+			<div id="content" class="block contact">
+				<form id="contact_from" name="contact_from" method="POST" action="result.html">
+					
+					<label for="firstname">First Name:</label>
+					<input name="firstname" type="text"/>
+					
+					<label for="lastname">Last Name:</label>
+					<input name="lastname" type="text"/>
+					
+					<label for="email">E-mail</label>
+					<input name="email" type="text"/>
+
+					<label for="age">Age:</label>
+					<select name="age">
+						<option value="kid">6-11</option>
+						<option value="teen">12-20</option>
+						<option value="adult">21-39</option>
+						<option value="middle_age">40-60</option>
+						<option value="old">60 or higher</option>
+					</select>
+
+					<h3>Gender:</h3>
+					<span class="option">
+						<label for="male">
+							<input type="radio" value="1" name="gender:list">
+							<span class="label">male</span>
+						</label>
+					</span>
+					<span class="option">
+						<label for="female">
+							<input type="radio" value="0" name="gender:list">
+							<span class="label">female</span>
+						</label>
+					</span>
+
+					<label for="emailtext">
+						EmailText:
+					</label>
+					<textarea name="emailtext" rows="4" cols="50"></textarea>
+
+					<label for="newsletter">
+					</label>
+					<input name="newsletter" type="checkbox"/>NewsLetter
+
+					<input type="submit" value="Sendme">
+				</form>
+			</div>
+
+			<div id="footer" class="block">
+				<div class="box">
+					Footer For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For 
+				</div>
+				<div class="box">
+					Footer For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For testFooter For 
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>

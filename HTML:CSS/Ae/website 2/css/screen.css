@@ -1,0 +1,103 @@
+.box-profile{
+	height: 600px;
+	widows: 600px;
+}
+.p-img img{
+	float: left;
+	margin-right: 15px;
+	height: 300px;
+	width: 300px
+}
+#global{
+	width:960px;
+	margin:0 auto;
+	background:#000000 none repeat;
+	border-color: red solid:50px;
+}
+h2{
+	color: #FAFAFA;
+	margin-right: 30px;
+	display: inline;
+	width: 30px;
+}
+h1{
+	color: #FAFAFA;
+	text-align: center;
+}
+h3{
+	color: #FAFAFA;
+}
+.navigation {
+	
+	background:transparent none no-repeat;
+}
+.content{
+	background:transparent url("../img/woodtest.jpg") no-repeat;
+	margin: 30px 30px 30px 30px;
+	overflow: auto;
+}
+.header{
+	text-align: center;
+}
+.header img{
+	width: 900px;
+	height: 400px;
+}
+.navigation li{
+	display:inline-block;
+}
+
+}
+.text-profile{
+	float: right;
+	margin-right: 30px;
+
+}
+
+.boxpic{
+	float: left; 
+	margin-right:30px;
+	
+}
+.clear{
+	clear: both;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+ul.submenu{
+	display:none;
+	position: absolute;
+	background:transparent none no-repeat;
+	padding: 0px;
+}
+.navigation li:hover ul.submenu{
+	display: block;
+	clear: both;
+	float: left;
+}
+.navigation ul.submenu li{
+	display: block;
+	text-align: center;
+}
+.video-body{
+	text-align: center;
+}
+label{
+	color:#FFFFFF;
+}
+body{
+	background:transparent url("../img/bg1.jpg") repeat;
+}
+.ftext1{
+	float: left;
+	display: inline-block;
+	width: 49%;
+}
+.ftext2{
+	float: right;
+	display: inline-block;
+	width: 49%;
+}
+.formc{
+	margin-left: 30px;
+}
